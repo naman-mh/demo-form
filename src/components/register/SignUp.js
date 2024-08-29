@@ -1,5 +1,6 @@
-import { Box, Input } from "@mui/material";
+import { Box, Input,InputAdornment ,TextField } from "@mui/material";
 import React from "react";
+import { Search } from '@mui/icons-material'
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 function SignUp() {
   return (
@@ -18,7 +19,21 @@ function SignUp() {
       >
         
         <Box display={"flex"} flexDirection={"column"}>
-        <AccountCircleIcon />
+        {/* <div style={{
+         display:"flex",
+         justifyContent:"space-between"
+        }}> */}
+        
+        <Input
+          id="input-with-icon-adornment"
+          sx={{border:"2px solid black",outline:"none" }}
+          startAdornment={
+            <InputAdornment position="start">
+              <AccountCircleIcon />
+            </InputAdornment>
+          }
+        />
+        
         <Input  type="text" placeholder="Username" bgcolor="red"></Input>
         <Input type="number" placeholder="Phone Number"></Input>
         <Input type="email" placeholder="Email"></Input>
