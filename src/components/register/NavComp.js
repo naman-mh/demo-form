@@ -12,7 +12,7 @@ function NavComp() {
         alignItems: "center",
         bgcolor: "#334a52",
         justifyContent: "space-between",
-        padding:"30px"
+        
       }}
     >
       <Typography color="white">Logo</Typography>
