@@ -49,7 +49,7 @@ function Login() {
           />
         </Box>
         <Button sx={{ margin: "10px", bgcolor: "#228b22", color: "white", px:"80px", width: "100px" }}>Submit</Button>
-        <Typography>Frorget password?</Typography>
+        <Typography component={Link} to={"/forgetpassword"} sx={{textDecoration:"none" , color:"green"}} >Frorget password?</Typography>
           <Box display={"flex"}>
             <Typography >New User please SignUp </Typography>
             <Typography marginLeft={"5px"} component={Link} to="/signUp" sx={{ textDecoration: "none", color: "green" }}> Here</Typography>

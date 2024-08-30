@@ -4,7 +4,6 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import HttpsIcon from '@mui/icons-material/Https';
 import PhoneEnabledIcon from '@mui/icons-material/PhoneEnabled';
 import EmailIcon from '@mui/icons-material/Email';
-import { Login } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 function SignUp() {
   return (
