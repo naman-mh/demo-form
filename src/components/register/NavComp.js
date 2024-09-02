@@ -15,10 +15,11 @@ function NavComp() {
         
       }}
     >
-      <Typography color="white">Logo</Typography>
+      <Typography color="white" padding="20px">Logo</Typography>
       <Box sx={{ display: "flex" }}>
         <Button LinkComponent={Link} to="/login" sx={{ color: "white" }}>Login</Button>
         <Button LinkComponent={Link} to="/signup" sx={{ color: "white" }}>SignIn</Button>
+        <Button LinkComponent={Link} to="/machineQues" sx={{ color: "white" }}>MachineQues</Button>
       </Box>
     </Box>
   );

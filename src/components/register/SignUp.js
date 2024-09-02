@@ -6,6 +6,9 @@ import PhoneEnabledIcon from '@mui/icons-material/PhoneEnabled';
 import EmailIcon from '@mui/icons-material/Email';
 import { Link } from "react-router-dom";
 function SignUp() {
+  const handleChange = (e)=>{
+      console.log(e.target.value)
+  }
   return (
     <Box bgcolor="#faebd7" height={"93vh"} sx={{
       display: "flex", alignItems: "center",
@@ -31,6 +34,7 @@ function SignUp() {
 
         <Box display={"flex"} flexDirection={"column"} sx={{ width: { xs: "360px", sm: "450px", md: "550px" }, }} >
           <Input
+          
             type="text" placeholder="Username"
             id="input-with-icon-adornment"
             sx={{ outline: "none", margin: "10px" }}
@@ -39,6 +43,7 @@ function SignUp() {
                 <AccountCircleIcon />
               </InputAdornment>
             }
+            onChange={handleChange}
           />
           <Input
             type="number" placeholder="Phone Number"

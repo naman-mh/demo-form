@@ -5,6 +5,7 @@ import SignUp from './components/register/SignUp'
 
 import NavComp from './components/register/NavComp'
 import ForgetPassword from './components/register/ForgetPassword'
+import MachineQues from './components/register/MachineQues'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/login' element={<Login/>}/>
           <Route path='/signUp' element={<SignUp/>}/>
           <Route path='/ForgetPassword'element={<ForgetPassword/>}/>
+          <Route path='/machineQues' element={<MachineQues/>} />
         </Routes>
       </BrowserRouter>
     </div>
