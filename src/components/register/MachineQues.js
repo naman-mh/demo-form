@@ -1,8 +1,6 @@
 import React from "react";
-import { Box, Button, Input, InputAdornment, Typography } from "@mui/material";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import HttpsIcon from "@mui/icons-material/Https";
-import { Link } from "react-router-dom";
+import { Box, Button, Input,  Typography } from "@mui/material";
+
 
 function MachineQues() {
   return (
